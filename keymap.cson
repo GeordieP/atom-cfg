@@ -1,0 +1,25 @@
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'k j': 'vim-mode-plus:activate-normal-mode'
+
+'atom-text-editor.vim-mode-plus.normal-mode':
+  ', q': 'vim-mode-plus:next-tab'
+  ', z': 'vim-mode-plus:previous-tab'
+  ', v': 'pane:split-right-and-copy-active-item'
+  ', s h': 'pane:split-down-and-copy-active-item'
+  ', c': 'core:close'
+  'ctrl-l': 'window:focus-pane-on-right'
+  'ctrl-h': 'window:focus-pane-on-left'
+  'ctrl-j': 'window:focus-pane-below'
+  'ctrl-k': 'window:focus-pane-above'
+  'g c c': 'editor:toggle-line-comments'
+
+'atom-text-editor.vim-mode-plus.visual-mode':
+  'g c': 'keystroke ctrl-/ escape'
+
+'body atom-text-editor.autocomplete-active':
+  'ctrl-p': 'autocomplete-plus:move-up'
+  'ctrl-n': 'autocomplete-plus:move-down'
+  'pageup': 'autocomplete-plus:page-up'
+  'pagedown': 'autocomplete-plus:page-down'
+  'home': 'autocomplete-plus:move-to-top'
+  'end': 'autocomplete-plus:move-to-bottom'

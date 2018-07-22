@@ -1,0 +1,54 @@
+"*":
+  "autocomplete-plus":
+    autoActivationDelay: 100
+    useCoreMovementCommands: false
+  core:
+    autoHideMenuBar: true
+    closeEmptyWindows: false
+    disabledPackages: [
+      "archive-view"
+      "autoflow"
+      "autosave"
+      "background-tips"
+      "bookmarks"
+      "dev-live-reload"
+      "find-and-replace"
+      "go-to-line"
+      "image-view"
+      "language-c"
+      "language-clojure"
+      "language-coffee-script"
+      "language-csharp"
+      "language-java"
+      "language-objective-c"
+      "language-php"
+      "language-perl"
+      "open-on-github"
+      "package-generator"
+      "wrap-guide"
+      "atom-ide-ui"
+      "ide-typescript"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "nord-atom-syntax"
+    ]
+  editor:
+    fontFamily: "DejaVu Sans Mono, monospace"
+    invisibles: {}
+    lineHeight: 1.6
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "e935c70a-de60-4131-9482-2f8641db8124"
+  "status-bar": {}
+  "vim-mode-plus":
+    highlightSearch: false
+    useSmartcaseForFind: true
+    useSmartcaseForSearch: true
+    useSmartcaseForSearchCurrentWord: true
+  welcome:
+    showOnStartup: false
