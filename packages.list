@@ -6,4 +6,5 @@ ide-typescript@0.7.6
 keystroke@0.4.0
 nord-atom-syntax@0.9.1
 nord-atom-ui@0.11.0
+quick-highlight@0.13.0
 vim-mode-plus@1.34.0

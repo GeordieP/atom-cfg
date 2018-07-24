@@ -1,6 +1,6 @@
 "*":
   "autocomplete-plus":
-    autoActivationDelay: 100
+    autoActivationDelay: 200
     useCoreMovementCommands: false
   core:
     autoHideMenuBar: true
@@ -26,8 +26,6 @@
       "open-on-github"
       "package-generator"
       "wrap-guide"
-      "atom-ide-ui"
-      "ide-typescript"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -35,7 +33,7 @@
       "nord-atom-syntax"
     ]
   editor:
-    fontFamily: "DejaVu Sans Mono, monospace"
+    fontFamily: "DejaVu Sans Mono, Menlo, monospace"
     invisibles: {}
     lineHeight: 1.6
     scrollPastEnd: true

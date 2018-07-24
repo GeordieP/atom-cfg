@@ -7,11 +7,13 @@
   ', v': 'pane:split-right-and-copy-active-item'
   ', s h': 'pane:split-down-and-copy-active-item'
   ', c': 'core:close'
+  ', o': 'outline-view:toggle'
   'ctrl-l': 'window:focus-pane-on-right'
   'ctrl-h': 'window:focus-pane-on-left'
   'ctrl-j': 'window:focus-pane-below'
   'ctrl-k': 'window:focus-pane-above'
   'g c c': 'editor:toggle-line-comments'
+
 
 'atom-text-editor.vim-mode-plus.visual-mode':
   'g c': 'keystroke ctrl-/ escape'
