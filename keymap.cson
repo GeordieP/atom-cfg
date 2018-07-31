@@ -1,27 +1,61 @@
-'atom-text-editor.vim-mode-plus.insert-mode':
-  'k j': 'vim-mode-plus:activate-normal-mode'
+################
+# general
+################
 
-'atom-text-editor.vim-mode-plus.normal-mode':
-  ', q': 'vim-mode-plus:next-tab'
-  ', z': 'vim-mode-plus:previous-tab'
-  ', v': 'pane:split-right-and-copy-active-item'
-  ', s h': 'pane:split-down-and-copy-active-item'
-  ', c': 'core:close'
-  ', o': 'outline-view:toggle'
-  'ctrl-l': 'window:focus-pane-on-right'
-  'ctrl-h': 'window:focus-pane-on-left'
-  'ctrl-j': 'window:focus-pane-below'
-  'ctrl-k': 'window:focus-pane-above'
-  'g c c': 'editor:toggle-line-comments'
-
-
-'atom-text-editor.vim-mode-plus.visual-mode':
-  'g c': 'keystroke ctrl-/ escape'
-
+# autocomplete windows; use arrows, pgup/pgdn, or ctrl-n/p to navigate through list items
 'body atom-text-editor.autocomplete-active':
-  'ctrl-p': 'autocomplete-plus:move-up'
-  'ctrl-n': 'autocomplete-plus:move-down'
-  'pageup': 'autocomplete-plus:page-up'
-  'pagedown': 'autocomplete-plus:page-down'
-  'home': 'autocomplete-plus:move-to-top'
-  'end': 'autocomplete-plus:move-to-bottom'
+  # up
+  'ctrl-p':     'autocomplete-plus:move-up'
+  'up':         'autocomplete-plus:move-up'
+  'pageup':     'autocomplete-plus:page-up'
+  # down
+  'ctrl-n':     'autocomplete-plus:move-down'
+  'down':       'autocomplete-plus:move-down'
+  'pagedown':   'autocomplete-plus:page-down'
+  # top/bottom
+  'home':       'autocomplete-plus:move-to-top'
+  'end':        'autocomplete-plus:move-to-bottom'
+
+################
+# macOS
+################
+
+'.platform-darwin, .platform-darwin atom-text-editor':
+  # use ctrl for some commands (I'm still used to non-mac keyboards)
+  'shift-ctrl-p':   'command-palette:toggle'
+  'ctrl-p':         'fuzzy-finder:toggle-file-finder'
+  'ctrl-/':         'editor:toggle-line-comments'
+
+################
+# vim
+################
+
+# normal mode
+'atom-text-editor.vim-mode-plus.normal-mode':
+  # leader key (comma) commands
+  ', q':        'vim-mode-plus:next-tab'
+  ', z':        'vim-mode-plus:previous-tab'
+  ', v':        'pane:split-right-and-copy-active-item'
+  ', s h':      'pane:split-down-and-copy-active-item'
+  ', c':        'core:close'
+  ', o':        'outline-view:toggle'
+
+  # split navigation
+  'ctrl-l':     'window:focus-pane-on-right'
+  'ctrl-h':     'window:focus-pane-on-left'
+  'ctrl-j':     'window:focus-pane-below'
+  'ctrl-k':     'window:focus-pane-above'
+
+  # toggle line comment for current line
+  'g c c':      'editor:toggle-line-comments'
+
+# insert mode
+'atom-text-editor.vim-mode-plus.insert-mode':
+  # kj to enter normal mode
+  'k j':        'vim-mode-plus:activate-normal-mode'
+
+# visual mode
+'atom-text-editor.vim-mode-plus.visual-mode':
+  # line comment selection workaround: press toggle line comment bind, then escape;
+  # using editor:toggle-line-comments alone doesn't drop the selection afterwards.
+  'g c':        'keystroke ctrl-/ escape'
