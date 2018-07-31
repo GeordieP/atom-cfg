@@ -1,6 +1,6 @@
 "*":
   "autocomplete-plus":
-    autoActivationDelay: 200
+    autoActivationDelay: 100
     useCoreMovementCommands: false
   core:
     autoHideMenuBar: true
