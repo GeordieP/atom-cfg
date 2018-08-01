@@ -25,6 +25,7 @@
   'shift-ctrl-p':   'command-palette:toggle'
   'ctrl-p':         'fuzzy-finder:toggle-file-finder'
   'ctrl-/':         'editor:toggle-line-comments'
+  'ctrl-k ctrl-b':  'tree-view:toggle'
 
 ################
 # vim
