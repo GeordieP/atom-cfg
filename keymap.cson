@@ -1,4 +1,4 @@
-################
+###############
 # general
 ################
 
@@ -40,12 +40,16 @@
   ', s h':      'pane:split-down-and-copy-active-item'
   ', c':        'core:close'
   ', o':        'outline-view:toggle'
+  ', x':        'command-palette:toggle'
 
   # split navigation
   'ctrl-l':     'window:focus-pane-on-right'
   'ctrl-h':     'window:focus-pane-on-left'
   'ctrl-j':     'window:focus-pane-below'
   'ctrl-k':     'window:focus-pane-above'
+  # split sizing
+  'ctrl-shift-l': 'pane:increase-size'
+  'ctrl-shift-h': 'pane:decrease-size'
 
   # toggle line comment for current line
   'g c c':      'editor:toggle-line-comments'

@@ -43,6 +43,8 @@
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "e935c70a-de60-4131-9482-2f8641db8124"
+  react:
+    enabledForAllJavascriptFiles: true
   "status-bar": {}
   "vim-mode-plus":
     highlightSearch: false
