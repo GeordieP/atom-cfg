@@ -25,14 +25,16 @@
       "language-perl"
       "open-on-github"
       "package-generator"
-      "wrap-guide"
       "spell-check"
     ]
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "nord-atom-syntax"
+      "one-light-ui"
+      "anatomy-of-grey-light-syntax"
     ]
+    titleBar: "custom"
+  "custom-title":
+    template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% } %> - Atom <%= atom.getVersion() %>"
   editor:
     fontFamily: "DejaVu Sans Mono, Menlo, monospace"
     invisibles: {}
