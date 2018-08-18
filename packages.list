@@ -1,6 +1,7 @@
 
 atom-ide-ui@0.13.0
 ex-mode@0.18.0
+gmacs-light-syntax@1.0.1
 ide-typescript@0.7.6
 keystroke@0.4.0
 nord-atom-syntax@0.9.1
