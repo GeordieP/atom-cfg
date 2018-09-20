@@ -1,4 +1,8 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-terminal":
+      lineHeight: 1.2
+      rendererType: "canvas"
   "autocomplete-plus":
     autoActivationDelay: 100
     useCoreMovementCommands: false
@@ -29,16 +33,18 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "one-light-ui"
-      "gmacs-light-syntax"
+      "minima-gp-ui"
+      "gmacs-blue-syntax"
     ]
     titleBar: "custom"
+    useTreeSitterParsers: true
   "custom-title":
     template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% } %> - Atom <%= atom.getVersion() %>"
   editor:
-    fontFamily: "DejaVu Sans Mono, Menlo, monospace"
+    fontFamily: "Fira Mono for Powerline, Input, DejaVu Sans Mono, Menlo, monospace"
+    fontSize: 15
     invisibles: {}
-    lineHeight: 1.6
+    lineHeight: 1.7
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4

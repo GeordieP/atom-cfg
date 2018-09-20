@@ -1,11 +1,17 @@
 
+
 atom-ide-ui@0.13.0
 ex-mode@0.18.0
+gmacs-blue-syntax@1.0.1
 gmacs-light-syntax@1.0.1
+gmacs-syntax@1.0.1
+ide-rust@0.18.3
 ide-typescript@0.7.6
 keystroke@0.4.0
+language-rust@0.4.12
+minima-gp-ui@0.1.0
+minima-ui@0.1.0
 nord-atom-syntax@0.9.1
-nord-atom-ui@0.11.0
 quick-highlight@0.13.0
 tab-foldername-index@3.3.0
 tsx-tags-autocomplete@0.1.0
