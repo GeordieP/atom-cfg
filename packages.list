@@ -9,9 +9,11 @@ ide-rust@0.18.3
 ide-typescript@0.7.6
 keystroke@0.4.0
 language-rust@0.4.12
+minima-gp-light-ui@0.1.0
 minima-gp-ui@0.1.0
 minima-ui@0.1.0
 nord-atom-syntax@0.9.1
+pigments@0.40.2
 quick-highlight@0.13.0
 tab-foldername-index@3.3.0
 tsx-tags-autocomplete@0.1.0
