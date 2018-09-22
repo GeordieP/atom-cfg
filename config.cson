@@ -1,9 +1,9 @@
 "*":
   "atom-ide-ui":
     "atom-ide-terminal":
+      documentationMessage: false
       lineHeight: 1.2
       rendererType: "canvas"
-      documentationMessage: false
   "autocomplete-plus":
     autoActivationDelay: 100
     useCoreMovementCommands: false
@@ -40,11 +40,8 @@
     ]
     titleBar: "custom"
     useTreeSitterParsers: true
-  "custom-title":
-    template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% } %> - Atom <%= atom.getVersion() %>"
   editor:
     fontFamily: "Fira Mono for Powerline, Input, DejaVu Sans Mono, Menlo, monospace"
-    fontSize: 15
     invisibles: {}
     lineHeight: 1.7
     scrollPastEnd: true
