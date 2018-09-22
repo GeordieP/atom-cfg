@@ -16,6 +16,9 @@
   'home':       'autocomplete-plus:move-to-top'
   'end':        'autocomplete-plus:move-to-bottom'
 
+'atom-text-editor':
+  'ctrl-alt-c': 'color-picker:open'
+
 ################
 # macOS
 ################
