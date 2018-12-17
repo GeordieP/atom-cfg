@@ -36,7 +36,7 @@
     telemetryConsent: "limited"
     themes: [
       "minima-gp-ui"
-      "gmacs-blue-syntax"
+      "gruvbox"
     ]
     titleBar: "custom"
     useTreeSitterParsers: true
