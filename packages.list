@@ -5,8 +5,8 @@ ex-mode@0.18.0
 gmacs-blue-syntax@1.0.1
 gmacs-light-syntax@1.0.1
 gmacs-syntax@1.0.1
-gruvbox@1.0.7
-ide-rust@0.19.1
+gruvbox-plus-syntax@1.3.1
+ide-rust@0.19.2
 ide-typescript@0.8.0
 jsx-comment@0.2.0
 keystroke@0.4.0
@@ -19,5 +19,6 @@ pigments@0.40.2
 quick-highlight@0.13.0
 slime@2.4.0
 tab-foldername-index@3.3.0
+theme-switch@0.6.0
 tsx-tags-autocomplete@0.1.0
 vim-mode-plus@1.36.0

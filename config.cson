@@ -36,7 +36,7 @@
     telemetryConsent: "limited"
     themes: [
       "minima-gp-ui"
-      "gruvbox"
+      "gruvbox-plus-syntax"
     ]
     titleBar: "custom"
     useTreeSitterParsers: true
@@ -50,9 +50,22 @@
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "e935c70a-de60-4131-9482-2f8641db8124"
+  "gruvbox-plus-syntax":
+    contrast: "Soft"
   react:
     enabledForAllJavascriptFiles: true
   "status-bar": {}
+  "theme-switch":
+    darkProfiles: [
+      "minima-gp-ui gruvbox-plus-syntax"
+    ]
+    lightProfiles: [
+      "minima-gp-light-ui gmacs-light-syntax"
+    ]
+    profiles: [
+      "minima-gp-ui gruvbox-plus-syntax"
+      "minima-gp-light-ui gmacs-light-syntax"
+    ]
   "vim-mode-plus":
     highlightSearch: false
     useSmartcaseForFind: true
