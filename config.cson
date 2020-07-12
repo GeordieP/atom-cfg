@@ -4,6 +4,10 @@
       documentationMessage: false
       lineHeight: 1.2
       rendererType: "canvas"
+  "atom-package-deps":
+    ignored: [
+      "prettier-atom"
+    ]
   "autocomplete-plus":
     autoActivationDelay: 100
     useCoreMovementCommands: false
@@ -11,6 +15,10 @@
   core:
     autoHideMenuBar: true
     closeEmptyWindows: false
+    customFileTypes:
+      "text.html.mustache": [
+        "svelte"
+      ]
     disabledPackages: [
       "archive-view"
       "autoflow"
@@ -35,37 +43,41 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "minima-gp-ui"
-      "gruvbox-plus-syntax"
+      "one-dark-ui"
+      "atom-distraction-free-syntax"
     ]
     titleBar: "custom"
     useTreeSitterParsers: true
   editor:
-    fontFamily: "Source Code Variable, Dank Mono, Fira Mono for Powerline, Input, DejaVu Sans Mono, Menlo, monospace"
-    fontSize: 16
+    confirmCheckoutHeadRevision: false
+    fontFamily: "Fantasque Sans Monoxxx, Source Code Variable, Dank Mono, Fira Mono for Powerline, Input, DejaVu Sans Mono, Menlo, monospace"
+    fontSize: 17
     invisibles: {}
-    lineHeight: 1.7
+    preferredLineLength: 180
     scrollPastEnd: true
     showIndentGuide: true
-    zoomFontWhenCtrlScrolling: false
+    showLineNumbers: false
+    zoomFontWhenCtrlScrolling: true
   "exception-reporting":
     userId: "e935c70a-de60-4131-9482-2f8641db8124"
   "gruvbox-plus-syntax":
     contrast: "Soft"
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
   react:
     enabledForAllJavascriptFiles: true
   "status-bar": {}
   "theme-switch":
     darkProfiles: [
-      "minima-gp-ui gruvbox-plus-syntax"
+      "one-dark-ui one-dark-syntax"
     ]
     lightProfiles: [
-      "minima-gp-light-ui gmacs-light-syntax"
+      "one-light-ui gmacs-light-syntax"
     ]
-    profiles: [
-      "minima-gp-ui gruvbox-plus-syntax"
-      "minima-gp-light-ui gmacs-light-syntax"
-    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "vim-mode-plus":
     highlightSearch: false
     useSmartcaseForFind: true
